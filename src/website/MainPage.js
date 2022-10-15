@@ -49,11 +49,6 @@ const MainPage = () => {
 
         <div className='OuterBlock '>
             
-        <label>Weather Application </label>
-            <div>
-                <Weather />
-            </div>
-        </div>
 
         <div className='OuterBlock ' style={{background:'gray'}}>
             <label>TicTacToe</label>
