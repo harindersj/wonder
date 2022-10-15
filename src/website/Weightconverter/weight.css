@@ -1,0 +1,16 @@
+.divs {
+  display: flex;
+  justify-content: space-evenly;
+}
+.paper {
+  width: 25rem;
+  padding: 0.2rem;
+  margin: auto;
+  background: #47B5FF;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

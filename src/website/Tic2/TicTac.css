@@ -1,0 +1,33 @@
+.board {
+  width: 320px;
+  height: 320px;
+  border: 1px black solid;
+  margin: auto;
+  margin-top: 10%;
+  padding: 3px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  margin: 2px;
+  background: black;
+  border: 1px solid black;
+}
+button {
+  width: 100px;
+  height: 100px;
+  background: black;
+  outline: none;
+  color: white;
+  font-size: 40px;
+}
+button:hover {
+  background: lightgray;
+  color: black;
+}
+.reload {
+  font-size: 20px;
+}

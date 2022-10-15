@@ -1,0 +1,37 @@
+.paper {
+  width: 20rem;
+  padding: 2rem;
+  margin: auto;
+  background-image: white;
+  text-align: center;
+  }
+  .paper > form >div{
+    display: flex;
+  }
+  .weather > div{
+    padding: 0.2rem;
+  }
+.fontcss {
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.elementcenter {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  width: 80%;
+}
+.tempBlock{
+  display: flex;
+  background-color: lightgray;
+  margin: auto;
+  justify-content: center;
+  width: 80%;
+  border-radius: 2rem;
+}
+.imgcss {
+  background-color: lightblue;
+  
+  border-radius: 50%;
+  }

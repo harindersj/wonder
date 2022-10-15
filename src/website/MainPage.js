@@ -10,8 +10,11 @@ import "./websiteStyle.css"
 import myPic from "./image/myPic.JPG"
 import ImageCards from './ImageCards';
 import ImageConatainer from './ImageConatainer';
+import WeightConverter from './Weightconverter/WeightConverter';
+import Weather from './weather/Weather';
+import Board from './Tic2/Board';
 const MainPage = () => {
-    const images=[1,1,1,1,1,1,1,1]
+    const images = [1, 1, 1, 1, 1, 1, 1, 1]
     const WidgetIcon = [{ link: "", icon: LinkedInIcon }, { link: "", icon: YouTubeIcon }, { link: "", icon: GitHubIcon }, { link: "", icon: InstagramIcon }, { link: "", icon: CodeIcon }]
     return <>
         <div className='frontBlock'>
@@ -33,10 +36,32 @@ const MainPage = () => {
                 </Grid>
             </div>
         </div>
-        <div className='imageContainer'>
+        {/* <div className='imageContainer'>
             <div>Gallary</div>
             <ImageConatainer/>
+        </div> */}
+        <div className='OuterBlock'>
+            <label>Weight Converter</label>
+            <div>
+                <WeightConverter />
+            </div>
         </div>
+
+        <div className='OuterBlock '>
+            <div>
+                <Weather />
+            </div>
+            <label>Weather Application </label>
+        </div>
+
+        <div className='OuterBlock ' style={{background:'gray'}}>
+            <label>TicTacToe</label>
+            <div>
+                <Board/>
+            </div>
+        </div>
+
+
 
     </>
 
