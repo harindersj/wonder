@@ -1,0 +1,115 @@
+*{
+    color:rgb(6, 40, 61);
+}
+body{
+    background:lightgray
+}
+
+.frontBlock{
+    width:90%;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: #47B5FF;
+    align-items: center ;
+    box-shadow:0px 10px 8px -4px black;
+}
+.block1{
+    width:100%;
+}
+.block1 img{
+    width:100%;
+}
+.block2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialblock{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+.widgetStyle{
+    width:4rem;
+    height:4rem;
+    margin: 1rem;
+    position: relative;
+}
+.widgetStyle svg{
+    width:4rem;
+    height:4rem;
+    fill: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.paperCard{
+    width:100%;
+    margin-top: 1rem;
+ }
+
+.imageSize{
+    width:95%;
+    background-size: cover;
+    border: 1px solid white;
+}
+.imageContainer{
+    width:100%;
+    margin-top:5%; 
+    background-color: black;
+}
+
+.imageContainer >div{
+    font-size: 3rem;
+    margin:1rem 0rem;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (min-width: 748px) {
+    .frontBlock{
+        width:90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center ;
+    }
+    .block1{
+        width:50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .block1 img {
+        width:100%;
+        background-size: cover;
+        
+    }
+    .block2{
+        width:80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .block2 h4{
+        font-size: 5rem;
+    }
+    
+    .socialblock{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+    }
+    
+.paperCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+ }
+} 
