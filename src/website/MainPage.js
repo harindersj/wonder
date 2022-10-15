@@ -1,4 +1,4 @@
-import { AppBar, Box, Grid, Paper, Typography } from '@mui/material'
+import { AppBar, Box, Button, Grid, Paper, Typography } from '@mui/material'
 import React from 'react'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -35,7 +35,7 @@ const MainPage = () => {
 
                 </Grid>
             </div>
-        </div>
+        </div> 
         {/* <div className='imageContainer'>
             <div>Gallary</div>
             <ImageConatainer/>
@@ -48,10 +48,11 @@ const MainPage = () => {
         </div>
 
         <div className='OuterBlock '>
+            
+        <label>Weather Application </label>
             <div>
                 <Weather />
             </div>
-            <label>Weather Application </label>
         </div>
 
         <div className='OuterBlock ' style={{background:'gray'}}>
@@ -59,7 +60,13 @@ const MainPage = () => {
             <div>
                 <Board/>
             </div>
+        </div> 
+
+        <div className='OuterBlock' style={{border:'0.5rem solid white',padding:"0.4rem"}}>
+        <label>Todo List App</label>
+        <a link="https://codesandbox.io/s/todolist-j87se" ><button varient="contained" className="linkButton">Click here to see</button></a>
         </div>
+
 
 
 
